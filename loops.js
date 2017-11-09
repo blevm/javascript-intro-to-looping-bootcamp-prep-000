@@ -25,7 +25,7 @@ return Math.random() >= 0.5
 
 function doWhileLoop(array) {
 
-  do delete array.pop();
+  do array.pop();
   }
   while (array.length > 0 && maybeTrue());
   return array;
