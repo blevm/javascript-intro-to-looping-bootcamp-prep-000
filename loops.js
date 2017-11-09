@@ -13,7 +13,13 @@ function forLoop(array) {
 
 function whileLoop(n) {
   let countdown = n;
+  
   while (countdown > 0) {
     console.log(--countdown)
+  }
+
+while (whileLoop(0)) {
   return 'done'
 }
+  
+
